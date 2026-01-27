@@ -21,7 +21,3 @@ jobs:
       working-directory: scaffold
       run: |
         make test
-    - name: Format code with Python black
-      working-directory: scaffold
-      run: |
-        make format
