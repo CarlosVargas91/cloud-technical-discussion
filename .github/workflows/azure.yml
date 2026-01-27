@@ -12,7 +12,7 @@ jobs:
     - name: Install dependecies
       working-directory: scaffold
       run: |
-        make install
+        make install-azure
     - name: Lint with Pylint
       working-directory: scaffold
       run: |
